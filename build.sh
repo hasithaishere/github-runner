@@ -24,8 +24,8 @@ docker build --build-arg RUNNER_VERSION=$LATEST_RUNNER_VERSION -t hasithaishere/
 
 echo "$DOCKER_HUB_PWD" | docker login --username="$DOCKER_HUB_UNAME" --password-stdin
 
-docker push hasithaishere/github-runner
-
 docker push hasithaishere/github-runner:$CURRENT_TAG
+
+docker push hasithaishere/github-runner
 
 rm -rf $TEMP_DOCKER_FILE
