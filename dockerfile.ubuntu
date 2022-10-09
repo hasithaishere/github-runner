@@ -7,7 +7,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 LABEL Author="Hasitha Gamage"
 LABEL Email="hasitha.hpmax@gmail.com"
-LABEL GitHub="https://github.com/Pwd9000-ML"
+LABEL GitHub="https://github.com/hasithaishere/github-runner"
 LABEL BaseImage="__BASE_IMAGE__"
 LABEL RunnerVersion=${RUNNER_VERSION}
 
