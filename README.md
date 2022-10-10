@@ -60,16 +60,24 @@ Please follow these steps to generate custo access token.
 
 <img src="https://user-images.githubusercontent.com/4580975/194856355-7d4bba7e-86a0-4035-99a6-165dc76367e9.gif" alt="GitHub Runner"/>
 
+<hr>
+
 - Then go to **Developer Settings** and Click on the **Personal Access Token**.
 
 <img src="https://user-images.githubusercontent.com/4580975/194856352-e492981d-1fda-4316-ac90-a19aa3624c3a.gif" alt="GitHub Runner"/>
+
+<hr>
 
 - Click on the **Generate New Token** button.
 
 <img src="https://user-images.githubusercontent.com/4580975/194856349-c9268293-0725-4ee3-905d-b55512e74505.png" alt="GitHub Runner"/>
 
+<hr>
+
 - Then select following permissions from the list and generate the token.
 
 <img src="https://user-images.githubusercontent.com/4580975/194856465-13fa5ad3-c0e0-4b75-983f-107229b989ba.gif" alt="GitHub Runner"/>
+
+<hr>
 
 - Please save your token in **safe place** before close the window. Because this token you can retrieve one time only.
