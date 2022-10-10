@@ -1,6 +1,8 @@
 <div align="center">
   <img src="https://user-images.githubusercontent.com/4580975/194851999-ca3e6db3-c5fa-4b22-b99f-549f4a9a6135.jpg" alt="GitHub Runner"/>
 </div>
+<div align="center"><img src="https://github.com/hasithaishere/github-runner/actions/workflows/publish-runner.yml/badge.svg" alt="GitHub Runner"/>
+</div>
 <h1 align="center">GitHub Runner</h1>
 
 Generally, Github provides free 2000 build minutes in an every month. You can use these build minutes for your personal or any other business purposes. However, sometimes that isn't enough. You might need more build minutes, which is where we come in.
