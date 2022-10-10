@@ -83,3 +83,24 @@ Please follow these steps to generate custo access token.
 <hr>
 
 - Please save your token in **safe place** before close the window. Because this token you can retrieve one time only.
+
+Please execute following command to bind the local/ cloud based runner to GitHub.
+
+#### Connect Runner With GitHub Account
+
+```shell
+#Run container from image:
+docker run -e GH_TOKEN='<Your GitHub Token>' -e GH_OWNER='<Organization name/ your user name>' -e GH_REPOSITORY='<Repository Name>' -d hasithaishere/github-runner
+```
+
+If container has been successfully started, you can see the runner in the running container list.
+
+<img src="https://user-images.githubusercontent.com/4580975/194861525-88719515-33ac-4903-b6e2-dee89564ad7f.png" alt="GitHub Runner"/>
+
+
+
+And also you can see the container in GitHub Action page's runners list.
+
+<img src="https://user-images.githubusercontent.com/4580975/194861516-38cce929-31ec-48de-8007-10e02080fd44.png" alt="GitHub Runner"/>
+
+<hr>
