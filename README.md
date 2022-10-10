@@ -1,6 +1,9 @@
-# Custom Github Runner
+<div align="center">
+  <img src=".." alt="Custom GitHub Runner"/>
+</div>
+<h1 align="center">Custom GitHub Runner</h1>
 
-Generally, Github provides free 2000 build minutes in an eventy month. You can use these build minutes for your personal or any other business purposes. However, sometimes that isn't enough. You might need more build minutes, which is where we come in.
+Generally, Github provides free 2000 build minutes in an every month. You can use these build minutes for your personal or any other business purposes. However, sometimes that isn't enough. You might need more build minutes, which is where we come in.
 
 In this project, we build a general purpose GitHub custom runner using Docker. So you can use these docker image to run your wn custom runner in any of your cloud provider or locally without any complexity.
 
