@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=".." alt="Custom GitHub Runner"/>
+  <img src="https://user-images.githubusercontent.com/4580975/194851999-ca3e6db3-c5fa-4b22-b99f-549f4a9a6135.jpg" alt="Custom GitHub Runner"/>
 </div>
 <h1 align="center">Custom GitHub Runner</h1>
 
