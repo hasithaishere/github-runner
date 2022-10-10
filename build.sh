@@ -20,12 +20,12 @@ cp "dockerfile.$BASE_IMAGE_OS" $TEMP_DOCKER_FILE
 sed -i "s/__BASE_IMAGE__/$BASE_IMAGE/g" $TEMP_DOCKER_FILE
 
 #Build container: docker build [OPTIONS] PATH
-docker build --build-arg RUNNER_VERSION=$LATEST_RUNNER_VERSION -t hasithaishere/github-runner -t hasithaishere/github-runner:$CURRENT_TAG -f $TEMP_DOCKER_FILE .
+docker build --build-arg RUNNER_VERSION=$LATEST_RUNNER_VERSION -t $DOCKER_HUB_UNAME/github-runner -t $DOCKER_HUB_UNAME/github-runner:$CURRENT_TAG -f $TEMP_DOCKER_FILE .
 
 echo "$DOCKER_HUB_PWD" | docker login --username="$DOCKER_HUB_UNAME" --password-stdin
 
-docker push hasithaishere/github-runner:$CURRENT_TAG
+docker push $DOCKER_HUB_UNAME/github-runner:$CURRENT_TAG
 
-docker push hasithaishere/github-runner
+docker push $DOCKER_HUB_UNAME/github-runner
 
 rm -rf $TEMP_DOCKER_FILE
